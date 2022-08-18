@@ -32,4 +32,9 @@ div {
     color:gray;
 }
 
-
+.card-text {
+    color:#1a1ae6e8;
+}
+.row-cols-1 > .col {
+    padding-top: 50px;
+}
