@@ -11,6 +11,11 @@ a {
 div {
     display: block;
 }
+head {
+    display: none;
+}
+
+/*main.html*/
 .header-logo {
     font-size: 2.25rem;
 }
@@ -27,6 +32,8 @@ div {
 }
 .row {
     display: flex;
+
+    text-align: center;
 }
 .nav-link {
     color:gray;
@@ -35,6 +42,34 @@ div {
 .card-text {
     color:#1a1ae6e8;
 }
-.row-cols-1 > .col {
+.row-cols-1 > .col-4 {
     padding-top: 40px;
+    padding-right: 3px;
+}   
+.col-4 {
+    margin-top: 70px;
+}
+.banner-image{
+    margin-bottom: 20px;
+}
+
+/*signin.html*/
+.text-center {
+    text-align: center;
+}
+.form-signin {
+   
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+.form-control {
+    border:none;
+    border-radius: 0;
+    border-bottom: 1px solid gray;
+}
+.row > .text-muted {
+    text-decoration: underline;
+    text-align: end;
 }

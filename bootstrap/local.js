@@ -1,3 +1,3 @@
 function LoginPage(){
-    window.location.href="github/test03/login.html"
+    window.location.href="form_signin.html";
 }
