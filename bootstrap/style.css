@@ -6,7 +6,7 @@ ul {
 }
 a {
     text-decoration: none;
-    color: white;
+  
 }
 div {
     display: block;
@@ -52,6 +52,9 @@ head {
 .banner-image{
     margin-bottom: 20px;
 }
+.nav-scoller {
+    border-bottom: 1px solid rgb(229,229,229);;
+}
 
 /*signin.html*/
 .text-center {
@@ -72,4 +75,33 @@ head {
 .row > .text-muted {
     text-decoration: underline;
     text-align: end;
+}
+.row > .h1 {
+    cursor: pointer;
+}
+/*product.html*/
+.row > .header-logo {
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.row > .text-center {
+    font-size: 15px;
+}
+.table {
+    margin-top: 15px;
+}
+
+/*product_page.html*/
+.btn {
+    font-size: 20px;
+    margin-right: 20px;
+}
+.product {
+    margin-top: 70px;
+    margin-bottom: 300px;
+}
+.button3{
+    background-color:rgb(89, 100, 254);
+    border: 1px solid rgb(89, 100, 254);
 }
